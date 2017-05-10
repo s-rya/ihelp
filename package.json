@@ -1,0 +1,25 @@
+{
+  "name": "ihelp",
+  "version": "1.0.0",
+  "description": "Contains utility  modules which can be used across different applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-rya/ihelp.git"
+  },
+  "keywords": [
+    "ihelp"
+  ],
+  "author": "iSmile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s-rya/ihelp/issues"
+  },
+  "homepage": "https://github.com/s-rya/ihelp#readme",
+  "dependencies": {
+    "cloudant": "^1.7.1"
+  }
+}
