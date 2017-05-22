@@ -4,9 +4,9 @@
 const cloudant = require('../lib/cloudant');
 
 cloudant.searchBySelector('user-history', {email: 'k@m.com'})
-    .then(data => console.log(data))
-    .catch(err => console.log(err));
+    .then(console.log)
+    .catch(console.log);
 
-cloudant.createDoc('discovery-collection', {appName:'list_of_application',appList:[]})
-    .then(data => console.log(data))
-    .catch(err => console.log(err));
+cloudant.createDoc('discovery-collection', {appName: 'list_of_application', appList: []})
+    .then(console.log)
+    .catch(console.log);
