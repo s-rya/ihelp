@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/s-rya/ihelp#readme",
   "dependencies": {
-    "cloudant": "^1.7.1"
+    "cloudant": "^1.7.1",
+    "moment": "^2.18.1"
   }
 }
