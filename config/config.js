@@ -8,6 +8,15 @@ const cloudant = {
     plugin: 'promises'
 };
 
+const mail = {
+    service: 'Gmail',
+    auth: {
+        user: 'ismile.ibm@gmail.com',
+        pass: 'ibm@1234'
+    }
+};
+
 module.exports = {
-    cloudant: cloudant
+    cloudant: cloudant,
+    mail: mail
 };
