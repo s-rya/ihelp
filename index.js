@@ -3,8 +3,10 @@
  */
 const cloudant = require('./lib/cloudant');
 const commonUtil = require('./lib/common-util');
+const mailer = require('./lib/mailer');
 
 module.exports = {
     cloudant: cloudant,
-    commonUtil: commonUtil
+    commonUtil: commonUtil,
+    mailer: mailer
 };
