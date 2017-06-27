@@ -10,3 +10,7 @@ cloudant.searchBySelector('user-history', {email: 'k@m.com'})
 cloudant.createDoc('discovery-collection', {appName: 'list_of_application', appList: []})
     .then(console.log)
     .catch(console.log);
+
+cloudant.getAllDocuments('users')
+    .then(console.log)
+    .catch(console.log);
