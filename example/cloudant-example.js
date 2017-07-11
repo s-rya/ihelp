@@ -14,3 +14,11 @@ cloudant.createDoc('discovery-collection', {appName: 'list_of_application', appL
 cloudant.getAllDocuments('users')
     .then(console.log)
     .catch(console.log);
+
+cloudant.createDatabase('account-master-data')
+    .then(console.log)
+    .catch(console.log);
+
+cloudant.deleteDatabase('account-master-data')
+    .then(console.log)
+    .catch(console.log);
