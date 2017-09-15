@@ -4,9 +4,6 @@
 const cloudant = require('./lib/cloudant');
 const commonUtil = require('./lib/common-util');
 const mailer = require('./lib/mailer');
+const mysql = require('./lib/mysql');
 
-module.exports = {
-    cloudant: cloudant,
-    commonUtil: commonUtil,
-    mailer: mailer
-};
+module.exports = { cloudant, commonUtil, mailer, mysql };
