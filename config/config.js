@@ -8,6 +8,7 @@ const cloudant = {
     plugin: 'promises'
 };
 
+//Config Values for SMTP mail
 const mail = {
     service: 'Gmail',
     auth: {
@@ -16,7 +17,14 @@ const mail = {
     }
 };
 
-module.exports = {
-    cloudant: cloudant,
-    mail: mail
+//Config values for MySQL
+const mySql = {
+    host: "bluemix-sandbox-dal-9-portal.0.dblayer.com",
+    port: "22085",
+    user: "admin",
+    password: "KVKPMVNMVJFDVPRF",
+    database: "compose"
 };
+
+
+module.exports = { cloudant, mail, mySql };
